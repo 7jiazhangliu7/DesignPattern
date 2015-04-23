@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String args[]) {
         Singleton singleton = Singleton.getInstance("Singleton Pattern");
-        singleton.print();
+        singleton.print(); // Output: Singleton Pattern!!!
 
         Singleton singleton1 = Singleton.getInstance("Singleton");
-        singleton1.print();
+        singleton1.print(); // Output: Singleton Pattern!!! instead of Singleton!!!
     }
 }
