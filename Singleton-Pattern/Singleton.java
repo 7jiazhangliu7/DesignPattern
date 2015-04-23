@@ -5,6 +5,8 @@ public class Singleton {
     private static Singleton instance;
     private String str = "";
 
+    private Singleton(){}
+
     private Singleton(String str){
         this.str = str;
     }
